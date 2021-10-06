@@ -1,0 +1,23 @@
+{
+  "name": "jboards-backend",
+  "version": "1.0.0",
+  "description": "This is the backend server for JBoards web portal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JBoards",
+    "Project Management Tool"
+  ],
+  "author": "Aryak Roy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9",
+    "passport": "^0.5.0"
+  }
+}
